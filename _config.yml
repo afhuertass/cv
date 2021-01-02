@@ -81,6 +81,7 @@ content:
           Research assistant for the <a href="https://openreq.eu/">OpenReq</a> project, contributing mainly to <a href="https://github.com/OpenReqEU/palmu">Palmu </a>, a project for duplication detection among software requirements in large databases, using a vector-similarity approach.
 
 
+
           - Machine learning research for software requirements. 
           - Service deployment, Q&A. 
           - Technologies involved: Docker, Flask, Python, machine learning.
@@ -127,6 +128,12 @@ content:
 
           Modern RL algorithms proved to be suitable to find trading signals in the market, performing on average as well as market neutral strategies.
 
+          Key concepts learned and explored:
+
+          - Reinforcement learning, around four modern algorithms tested.
+          - Data mining, being crafty to find new data sources.
+          - Risk theory and metric, portfolio theory. 
+
       - layout: left
         title: Quake Watch
         link: https://github.com/afhuertass/QuakeWatch
@@ -139,6 +146,12 @@ content:
           QuakeWatch 2020
         description: | # this will include new lines to allow paragraphs
             Academic project part of the data science degree. We were tasked to build a dashboard for earthquake data visualization. The application deploys a web app capable of analyzing <a href="https://scedc.caltech.edu/data/alt-2011-yang-hauksson-shearer.html">earthquake catalogs </a> allowing the user to explore and compare different features across different time frames. One of my main contributions was the clustering system, able to classify and cluster siesmic events according to their space-time coordinates, helping to identify <a href="https://www.usgs.gov/faqs/foreshocks-aftershocks-whats-difference?qt-news_science_products=0#qt-news_science_products">mainshocks, foreshocks and aftersocks. </a> 
+
+            Key concepts learned and explored:
+
+            - <a href="https://plotly.com/dash/">Dashboard development</a> with python.  
+            - Earthquake metrics.
+            - Deployment of dashboard applications. 
 
       - layout: left
         title: Junction hackathon
@@ -155,6 +168,12 @@ content:
 
             My role as one of the data scientist in the team was to develop a way to measure such flows of people, and using graph theory ideas to gain insights from the data at hand. 
 
+            Key concepts learned and explored:
+
+            - Team work across multiple disciplenes.  
+            - Working under preasure and under time constraints.
+            - Graph theory application ot real-life situations.
+
       - layout: left
         title: News Articles Scrapper
         link: https://github.com/afhuertass/newScrapper
@@ -167,6 +186,13 @@ content:
           News Scrapper
         description: |
           A news article scrapper. it was used to mine data from a <a href="semana.com/">famous Colombian news paper </a>. The main goal was to build a news summarization algorithm, usign the <a href="https://en.wikipedia.org/wiki/PageRank">PageRank </a> method. As a result thousands of articles were scraped, parsed and analyzed. 
+
+          Key concepts learned and explored:
+
+          - Scrappy.io to build highly efficient scrappers.  
+          - PageRank algorithm application to news article summarization.
+          - Data cleaning and preprocesing from raw sources. 
+
       - layout: left
         title: Real State Analysis
         link: https://github.com/afhuertass/fincaraiz
@@ -179,13 +205,17 @@ content:
           News Scrapper
         description: |
           I built an scrapper for real state properties listed in the city of <a href="https://en.wikipedia.org/wiki/Bogot%C3%A1">Bogota</a>. Thousands of entries were mined, across the city. An exploration of the data was performed and simple machine learning asset price prediction model was implemented using the features at hand (location, size, number of rooms). The model implemented was 
+          
+          Key concepts learned and explored:
 
-
+          - Scrappy.io to build highly efficient scrappers.  
+          - Insights about the housing market in Bogota.
+          - Data cleaning and preprocesing from raw sources.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I enjoy writing. My creative creations(mainly written in Spanish) can be found in my <a href="https://afhuertassh.medium.com/">medium profile</a>.  
+      I enjoy writing. My creative creations (mainly written in Spanish) can be found in my <a href="https://afhuertassh.medium.com/">medium profile</a>.  
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
