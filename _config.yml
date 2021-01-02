@@ -1,0 +1,215 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Andres Huertas
+title: Data Scientist
+email: afhuertass@unal.edu.co
+# email_title: Email (Email title override)
+phone: 
+# phone_title: Phone (Phone title override)
+website: 
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: jekyllrb
+github_username:  afhuertass
+stackoverflow_username: "1544674"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: andres-huertas-s
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/andres.png
+about_content: | # this will include new lines to allow paragraphs
+  Welcome to my CV/Portfolio website. I'm a data scientist, from Colombia, currently living in Finland. I got a master's degree in data science from the University of Helsinki in the year 2020. I have over three years of experience coding with Python and machine learning technologies such as Tensorflow, Pytorch. I have also contributed to large scale projects, where I developed and deployed artificial intelligence solutions and services. 
+
+  My professional interests include machine learning applications, reinforcement learning, DevOps, Cloud computing, Business intelligence, Finance, Fintech and software development in general.  
+
+content:
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Univesity of Helsinki
+        sub_title: Research Assistant
+        caption: May 2020 - Present
+        link: https://www.helsinki.fi/fi
+        quote: >
+          University research
+        description: | # this will include new lines to allow paragraphs
+          Research assistant for the <a href="https://www.helsinki.fi/en/researchgroups/sensing-and-analytics-of-air-quality">Megasense</a> project, my main responsability is the research and development of a machine learning service for calibration of IoT devices.
+
+
+          - Develop and testing machine learning services for calibration of air quality sensors. 
+          - Service deployment and testing. 
+          - Technologies involved: Docker, Flask, Python, machine learning. 
+      - layout: right
+        title: Univesity of Helsinki
+        sub_title: Research Assistant
+        caption: May 2019 - Sep 2019
+        link: https://www.helsinki.fi/fi
+        quote: >
+          University research
+        description: | # this will include new lines to allow paragraphs
+          Research assistant for the <a href="https://openreq.eu/">OpenReq</a> project, contributing mainly to <a href="https://github.com/OpenReqEU/palmu">Palmu </a>, a project for duplication detection among software requirements in large databases, using a vector-similarity approach.
+
+
+          - Machine learning research for software requirements. 
+          - Service deployment, Q&A. 
+          - Technologies involved: Docker, Flask, Python, machine learning.
+          
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: University of Helsinki
+        sub_title: MSc. Data Science
+        caption: 2018-2020
+        quote: >
+          Master's degree
+        description: | # this will include new lines to allow paragraphs
+          Two year master's degree in data science at the <a href="https://www.helsinki.fi/en">University of Helsinki</a>, named by <a href="https://www.forbes.com/sites/bernardmarr/2020/07/20/the-10-best-ai-and-data-science-masters-courses-for-2021/">Forbes</a> as one of the top-10 for data science in the world.
+
+          I wrote my master's thesis in the topics of stock portfolio optimization using reinforcement learning.
+      - layout: top-right
+        title: Universidad Nacional de Colombia
+        sub_title:  B.Sc. Physics
+        caption: 2010-2016
+        quote: >
+          Bachelor's degree
+        description: | # this will include new lines to allow paragraphs
+          Bachelor degree in Physics, at the top-1 <a href="https://www.topuniversities.com/universities/universidad-nacional-de-colombia/undergrad">university</a> in Colombia. 
+
+          I wrote my thesis on the topic of fluid dynamic simulations using the Lattice Boltzman methods and GPU accelerated computing.
+
+  - title: Side projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: MSc thesis
+        link: https://github.com/afhuertass/MSc-Thesis
+        link_text: Github Link
+        additional_links:
+          - title:  afhuertass/MSc-Thesis
+            icon: fab fa-github
+            url: https://github.com/afhuertass/MSc-Thesis
+        quote: >
+          MSc. thesis
+        description: | # this will include new lines to allow paragraphs
+          Code and other documents related to my master's thesis. The main goal of the thesis was the development of a <a href="https://en.wikipedia.org/wiki/Portfolio_optimization">portfolio optimization </a> strategy using  <a href="https://en.wikipedia.org/wiki/Reinforcement_learning">reinforcement learning</a>. The main data used was historical stock prices for the Frankfurt stock exchange, and a handfull of algorithms were compared against market benchmarks. 
+
+          Modern RL algorithms proved to be suitable to find trading signals in the market, performing on average as well as market neutral strategies.
+
+      - layout: left
+        title: Quake Watch
+        link: https://github.com/afhuertass/QuakeWatch
+        link_text: App Link
+        additional_links:
+          - title:  afhuertass/Junction2019
+            icon: fab fa-github
+            url: https://github.com/afhuertass/QuakeWatch
+        quote: >
+          QuakeWatch 2020
+        description: | # this will include new lines to allow paragraphs
+            Academic project part of the data science degree. We were tasked to build a dashboard for earthquake data visualization. The application deploys a web app capable of analyzing <a href="https://scedc.caltech.edu/data/alt-2011-yang-hauksson-shearer.html">earthquake catalogs </a> allowing the user to explore and compare different features across different time frames. One of my main contributions was the clustering system, able to classify and cluster siesmic events according to their space-time coordinates, helping to identify <a href="https://www.usgs.gov/faqs/foreshocks-aftershocks-whats-difference?qt-news_science_products=0#qt-news_science_products">mainshocks, foreshocks and aftersocks. </a> 
+
+      - layout: left
+        title: Junction hackathon
+        link: https://dna-helsinki.netlify.app/
+        link_text: App Link
+        additional_links:
+          - title:  afhuertass/Junction2019
+            icon: fab fa-github
+            url: https://github.com/afhuertass/Junction2019
+        quote: >
+          Junction 2019
+        description: | # this will include new lines to allow paragraphs
+            Our entry for the Junction 2019 hackathon. Here we were challenged to make use of billions of data points related to mobile usage, to build understanding of how users move in the city of Helsinki. 
+
+            My role as one of the data scientist in the team was to develop a way to measure such flows of people, and using graph theory ideas to gain insights from the data at hand. 
+
+      - layout: left
+        title: News Articles Scrapper
+        link: https://github.com/afhuertass/newScrapper
+        link_text: Github link
+        additional_links:
+          - title:  afhuertass/newScrapper
+            icon: fab fa-github
+            url: https://github.com/afhuertass/newScrapper
+        quote: > 
+          News Scrapper
+        description: |
+          A news article scrapper. it was used to mine data from a <a href="semana.com/">famous Colombian news paper </a>. The main goal was to build a news summarization algorithm, usign the <a href="https://en.wikipedia.org/wiki/PageRank">PageRank </a> method. As a result thousands of articles were scraped, parsed and analyzed. 
+      - layout: left
+        title: Real State Analysis
+        link: https://github.com/afhuertass/fincaraiz
+        link_text: Github link
+        additional_links:
+          - title:  afhuertass/fincaraiz
+            icon: fab fa-github
+            url: 
+        quote: > 
+          News Scrapper
+        description: |
+          I built an scrapper for real state properties listed in the city of <a href="https://en.wikipedia.org/wiki/Bogot%C3%A1">Bogota</a>. Thousands of entries were mined, across the city. An exploration of the data was performed and simple machine learning asset price prediction model was implemented using the features at hand (location, size, number of rooms). The model implemented was 
+
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I enjoy writing. My creative creations(mainly written in Spanish) can be found in my <a href="https://afhuertassh.medium.com/">medium profile</a>.  
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
