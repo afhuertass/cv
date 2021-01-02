@@ -170,7 +170,7 @@ content:
 
             Key concepts learned and explored:
 
-            - Team work across multiple disciplenes.  
+            - Team work across multiple disciplines.
             - Working under preasure and under time constraints.
             - Graph theory application ot real-life situations.
 
@@ -185,7 +185,7 @@ content:
         quote: > 
           News Scrapper
         description: |
-          A news article scrapper. it was used to mine data from a <a href="semana.com/">famous Colombian news paper </a>. The main goal was to build a news summarization algorithm, usign the <a href="https://en.wikipedia.org/wiki/PageRank">PageRank </a> method. As a result thousands of articles were scraped, parsed and analyzed. 
+          A news article scrapper. It was used to mine data from a <a href="semana.com/">famous Colombian news paper </a>. The main goal was to build a news summarization algorithm, usign the <a href="https://en.wikipedia.org/wiki/PageRank">PageRank </a> method. As a result thousands of articles were scraped, parsed and analyzed. 
 
           Key concepts learned and explored:
 
