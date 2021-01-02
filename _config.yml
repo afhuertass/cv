@@ -47,7 +47,7 @@ linkedin_username: andres-huertas-s
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/andres.png
 about_content: | # this will include new lines to allow paragraphs
-  Welcome to my CV/Portfolio website. I'm a data scientist, from Colombia, currently living in Finland. I got a master's degree in data science from the University of Helsinki in the year 2020. I have over three years of experience coding with Python and machine learning technologies such as Tensorflow, Pytorch. I have also contributed to large scale projects, where I developed and deployed artificial intelligence solutions and services. 
+  Welcome to my CV/Portfolio website. I'm a data scientist, from Colombia, currently living in Finland. I got a master's degree in data science from the <a href="helsinki.fi">University of Helsinki</a> in the year 2020. I have over three years of experience programming with Python and machine learning technologies such as Tensorflow, Pytorch. I have  in the past contributed to large scale projects, where I developed and deployed artificial intelligence solutions and services. 
 
   My professional interests include machine learning applications, reinforcement learning, DevOps, Cloud computing, Business intelligence, Finance, Fintech and software development in general.  
 
