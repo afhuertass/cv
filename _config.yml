@@ -202,7 +202,7 @@ content:
             icon: fab fa-github
             url: 
         quote: > 
-          News Scrapper
+          Real state data collection and analysis
         description: |
           I built an scrapper for real state properties listed in the city of <a href="https://en.wikipedia.org/wiki/Bogot%C3%A1">Bogota</a>. Thousands of entries were mined, across the city. An exploration of the data was performed and simple machine learning asset price prediction model was implemented using the features at hand (location, size, number of rooms). The model implemented was 
           
