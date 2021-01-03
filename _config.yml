@@ -85,6 +85,23 @@ content:
           - Machine learning research for software requirements. 
           - Service deployment, Q&A. 
           - Technologies involved: Docker, Flask, Python, machine learning.
+
+      - layout: right
+        title: Resolve Studio
+        sub_title: Jr. Data Scientist
+        caption: Aug 2017 - Aug 2018
+        link: https://www.linkedin.com/company/resolve-studio/?originalSubdomain=co
+        quote: >
+          Jr. data scientist
+        description: | # this will include new lines to allow paragraphs
+          
+          Jr. Data scientist position at a small startup in Bogota Colombia. My main resposailitites included testing algorithms for marketing attribution, A/B testing por advertisement optimization, and present data to the board of directors and customers.
+
+
+
+          - A/B testing. I applied bayesian inference to solve the issues. 
+          - Act as bridge between the IT team developing AI tools, and the sales team. 
+          - Propose and test ideas for marketing attribution, and implement them into the in-house tools.
           
   - title: Education
     layout: list
