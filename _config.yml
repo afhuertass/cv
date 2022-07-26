@@ -10,9 +10,9 @@ name: Andrés Huertas
 title: Data Scientist
 email: afhuertass@unal.edu.co
 # email_title: Email (Email title override)
-phone: 
+phone: +358 414895469
 # phone_title: Phone (Phone title override)
-website: 
+website: https://afhuertass.github.io/cv/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -47,9 +47,9 @@ linkedin_username: andres-huertas-s
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/andres.png
 about_content: | # this will include new lines to allow paragraphs
-  Welcome to my CV/Portfolio website. I'm a data scientist, from Colombia, currently living in Finland. I got a master's degree in data science from the <a href="helsinki.fi">University of Helsinki</a> in the year 2020. I have over three years of experience programming with Python and machine learning technologies such as Tensorflow, Pytorch. I have  in the past contributed to large scale projects, where I developed and deployed artificial intelligence solutions and services. 
+  Welcome to my CV/Portfolio website. I'm a data scientist/Techonology enthusiast. I got a master's degree in data science from the <a href="helsinki.fi">University of Helsinki</a> in the year 2020. I have over three years of experience programming with Python and machine learning technologies such as Tensorflow, Pytorch. I have  in the past contributed to large scale projects, where I developed and deployed artificial intelligence solutions and services. Including papers published in peer reviewed journals
 
-  My professional interests include machine learning applications, reinforcement learning, DevOps, Cloud computing, Business intelligence, Finance, Fintech and software development in general.  
+  My professional interests include machine learning applications, reinforcement learning, DevOps, cloud computing, cybersecurity and all things related. 
 
 content:
 
@@ -57,9 +57,18 @@ content:
     layout: list
     content:
       - layout: right
+        title: Accenture Oy
+        sub_title: Data science Analyst
+        caption: November 2021 - Present
+        link: https://www.accenture.com/fi-en
+        quote: >
+          Data science consultancy
+        description:
+          Working as a data science analyst for one of the biggest consulting companies in the country. My two main project were the development of AI related to computeres vision and bee detection. And the second large project is about data quality and analysis for a largue financial entity. From both projects I gather new tools and knowledge that can be greatly applied to new challenges.
+      - layout: right
         title: Univesity of Helsinki
         sub_title: Research Assistant
-        caption: May 2020 - Present
+        caption: May 2020 - October 2021
         link: https://www.helsinki.fi/fi
         quote: >
           University research
@@ -126,6 +135,17 @@ content:
           Bachelor degree in Physics, at the top-1 <a href="https://www.topuniversities.com/universities/universidad-nacional-de-colombia/undergrad">university</a> in Colombia. 
 
           I wrote my thesis on the topic of fluid dynamic simulations using the Lattice Boltzman methods and GPU accelerated computing.
+  - title: Research papers
+    layout: list
+    content:
+      - layout: top-left
+        title: Low-Cost Formaldehyde Sensor Evaluation and Calibration in a Controlled Environment
+        link: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9768827
+        description: I collaborated in the development and testing of the machine learning model presented in the paper. A two stage model for calibration of low cost sensor devices. My main contrubtion was the actual ML model as well as the quantitative analysis of the experimental data collected
+      - layout: top-left
+        title: City Wide Participatory Sensing of Air Quality
+        link: https://www.frontiersin.org/articles/10.3389/fenvs.2021.773778/full
+        description: I contributed providing quantitative and qualitative analysis of the data for the <a href="https://ilmanlaatu.eu/briefly-in-english/" > HOPE </a> project. The project followed volunteers across a period of time with the goal of understanding their exposure to different pollutants, providing insight about contamination and its relation with the citizen's health and habits.
 
   - title: Side projects # Title for the section
     layout: list # Type of content section (list/text)
